@@ -1,0 +1,39 @@
+body {
+    background-color: #9BA17B;
+}
+
+.container {
+    background-color: #CFB997;
+    width: 70%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 3vmax 7vmax;
+    box-sizing: border-box;
+
+}
+
+.container > form {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 2.5rem;
+}
+
+input, textarea, button {
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin: 7px 0;
+    font-size: 1.1rem;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    background-color: #b39a77;
+    color: white;
+}
